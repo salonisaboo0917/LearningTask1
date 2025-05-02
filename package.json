@@ -2,15 +2,18 @@
   "name": "7-daybackendtasks",
   "version": "1.0.0",
   "description": "Backend learning tasks for 7 days ",
+  "type":"module",
   "keywords": [
     "javascript",
     "Backend"
   ],
   "license": "ISC",
   "author": "saloni saboo",
-  "type": "commonjs",
+  
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js"
+  },
+  "devDependencies": {"nodemon":"^3.0.1"}
 }
