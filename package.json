@@ -1,0 +1,16 @@
+{
+  "name": "7-daybackendtasks",
+  "version": "1.0.0",
+  "description": "Backend learning tasks for 7 days ",
+  "keywords": [
+    "javascript",
+    "Backend"
+  ],
+  "license": "ISC",
+  "author": "saloni saboo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
