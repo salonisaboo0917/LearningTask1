@@ -2,18 +2,24 @@
   "name": "7-daybackendtasks",
   "version": "1.0.0",
   "description": "Backend learning tasks for 7 days ",
-  "type":"module",
+  "type": "module",
   "keywords": [
     "javascript",
     "Backend"
   ],
   "license": "ISC",
   "author": "saloni saboo",
-  
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
-  "devDependencies": {"nodemon":"^3.0.1"}
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "prettier": "^3.5.3"
+  }
 }
